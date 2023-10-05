@@ -18,7 +18,7 @@ To expose your local server to the public internet, use ngrok. Follow the steps 
    ./ngrok http 5000
    ```
 
-   If you're using Windows, you might omit `./`:
+   If you're using Windows, omit `./`:
 
    ```
    ngrok http 5000
