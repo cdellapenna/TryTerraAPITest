@@ -24,7 +24,7 @@ To expose your local server to the public internet, use ngrok. Follow the steps 
    ngrok http 5000
    ```
 
-   Ensure that the getFreeStyleLibreData.py app and ngrok are running on the same port (5000 in this case).
+   Ensure that the localServer.py and ngrok are running on the same port (5000 in this case).
 
 4. **Get the ngrok URL:**
    Once ngrok is running, you will see a forwarding URL in the terminal (e.g., "https://your-ngrok-subdomain.ngrok.io"). Go to the Terra API dashboard and select "Connections." Add new source and select Freestyle Libre. For destination select webhook, and use the forwarding link displayed in the ngrok terminal with "/webhook-endpoint" inserted at the very end.
