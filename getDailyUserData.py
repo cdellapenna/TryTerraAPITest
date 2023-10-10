@@ -6,9 +6,9 @@ load_dotenv()
 url = "https://api.tryterra.co/v2/daily"
 
 # User ID and other parameters for the request
-user_id = "5e41be1d-5949-4095-b8e7-9749931e8d5f"
+user_id = "7114f2c5-5097-4c67-a646-b44af8ad0cc4"
 start_date = "2022-10-01" 
-to_webhook = "true"
+to_webhook = "false"
 with_samples = "true"
 
 # Headers for the API request

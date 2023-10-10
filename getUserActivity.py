@@ -6,7 +6,11 @@ load_dotenv()
 # Replace these with your actual credentials and user ID
 api_key = os.environ.get('API_KEY')
 dev_id = os.environ.get('DEV_ID')
-user_id = "5e41be1d-5949-4095-b8e7-9749931e8d5f"
+user_id = "7114f2c5-5097-4c67-a646-b44af8ad0cc4"
+
+#api_key = "ussv5SAQ53a1nNTxsMr9G41zj2KUhYMk5eDU1hjG"
+#dev_id = "testingTerra"
+#user_id = "c120a9fb-d004-4730-b38d-1526b47c45cd"
 
 # Define the start and end dates for data retrieval
 # Note: Ensure these dates have data for the user
@@ -26,7 +30,7 @@ headers = {
 params = {
     "user_id": user_id,
     "start_date": start_date,
-    "to_webhook": "true",
+    "to_webhook": "false",
     "with_samples": "true"
 }
 
